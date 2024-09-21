@@ -35,3 +35,10 @@ def login():
         return jsonify({'access_token': access_token}), 200
     else:
         return jsonify({'message': 'Invalid credentials'}), 401
+
+@auth_bp.route('/doctors', methods=['GET'])
+@jwt_required()
+def get_doctors():
+    doctors = User.query.filter_by(role='doctor').all()
+    output = [{'id': doctor.id, 'username': doctor.username} for doctor in doctors]
+    return jsonify({'doctors': output}), 200

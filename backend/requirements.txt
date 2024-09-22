@@ -8,3 +8,4 @@ tensorflow
 pandas
 numpy
 gunicorn
+psycopg2

@@ -54,10 +54,6 @@ HealthVault is a comprehensive application designed to securely store user healt
 
 We welcome contributions to the HealthVault project. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Acknowledgements
 
 We would like to thank the developers of React, Tailwind CSS, Flask, SQLAlchemy, Firebase, PyHealth, and generative AI APIs for their amazing tools and libraries that made this project possible.

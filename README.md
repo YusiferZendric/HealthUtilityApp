@@ -7,10 +7,6 @@ Welcome to the **Personalized Medication Recommendation Web Application**! This 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
 - [How It Works](#how-it-works)
 - [User Interface](#user-interface)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
@@ -20,7 +16,7 @@ Welcome to the **Personalized Medication Recommendation Web Application**! This 
 
 ## 🌟 Introduction
 
-In the world of healthcare, choosing the right medication is crucial for effective treatment and patient safety. Our web application leverages advanced technology to provide **personalized medication recommendations**, ensuring that each patient receives the most suitable and safe treatment options. Powered by **PyHealth**, this app analyzes patient data to offer evidence-based suggestions, reducing the risk of drug interactions and improving overall healthcare outcomes.
+In the world of healthcare, choosing the right medication is crucial for effective treatment and patient safety. Our web application leverages advanced technology to provide **personalized medication recommendations**, ensuring that each patient receives the most suitable and safe treatment options. By analyzing patient data with sophisticated machine learning and deep learning models, this app offers evidence-based suggestions, reducing the risk of drug interactions and improving overall healthcare outcomes.
 
 ## 🚀 Features
 
@@ -42,10 +38,16 @@ This project utilizes a combination of modern libraries and frameworks to delive
   
 - **Backend:**
   - [**Flask**](https://flask.palletsprojects.com/): Python-based web framework to handle server-side logic.
-  - [**PyHealth**](https://pyhealth.readthedocs.io/en/latest/): Library for developing healthcare AI applications.
   
 - **Database & Authentication:**
   - [**Firebase**](https://firebase.google.com/): For real-time database management and user authentication.
+
+- **Machine Learning Models:**
+  - Utilizes various **machine learning** and **deep learning models** to analyze patient data and generate medication recommendations.
+
+## 🏁 Getting Started
+
+*Installation documentation has been removed as per request.*
 
 ## 🔍 How It Works
 
@@ -59,7 +61,7 @@ This project utilizes a combination of modern libraries and frameworks to delive
 
 3. **Generate Recommendations:**
    - Upon submitting the data, the frontend sends the information to the Flask backend.
-   - **PyHealth** processes the data, utilizing pre-trained machine learning models to analyze and generate personalized medication recommendations.
+   - Advanced machine learning and deep learning models process the data to analyze and generate personalized medication recommendations.
    - The backend checks for potential drug interactions and predicts risks associated with the recommended medications.
 
 4. **Display Results:**

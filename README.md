@@ -35,11 +35,10 @@ This project utilizes a combination of modern libraries and frameworks to delive
 - **Frontend:**
   - [**React**](https://reactjs.org/): For building dynamic and responsive user interfaces.
   - [**Tailwind CSS**](https://tailwindcss.com/): Utility-first CSS framework for styling the application.
-  
 - **Backend:**
   - [**Flask**](https://flask.palletsprojects.com/): Python-based web framework to handle server-side logic.
-  
 - **Database & Authentication:**
+
   - [**Firebase**](https://firebase.google.com/): For real-time database management and user authentication.
 
 - **Machine Learning Models:**
@@ -48,19 +47,23 @@ This project utilizes a combination of modern libraries and frameworks to delive
 ## 🔍 How It Works
 
 1. **User Authentication:**
+
    - Users (doctors and patients) sign up or log in using Firebase Authentication.
    - Secure access ensures that personal and medical data remains protected.
 
 2. **Input Patient Data:**
+
    - Users input patient information through intuitive forms, including age, gender, medical history, current medications, and allergies.
    - The interface provides clear labels and tooltips to guide users on the required data.
 
 3. **Generate Recommendations:**
+
    - Upon submitting the data, the frontend sends the information to the Flask backend.
    - Advanced machine learning and deep learning models process the data to analyze and generate personalized medication recommendations.
    - The backend checks for potential drug interactions and predicts risks associated with the recommended medications.
 
 4. **Display Results:**
+
    - Recommendations, interaction alerts, and risk predictions are sent back to the frontend.
    - Users view the results on a user-friendly dashboard, with options to save or export the information.
 
@@ -119,3 +122,7 @@ If you experience any issues, please visit our Help page for troubleshooting tip
 ### **10. Can I integrate this application with my existing electronic health record (EHR) system?**
 
 Currently, the application allows data import through file uploads. We are working on expanding integration options and will update the app with new features as they become available.
+
+<!-- aady pull req test -->
+
+aady01

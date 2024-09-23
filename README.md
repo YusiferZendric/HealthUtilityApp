@@ -50,25 +50,6 @@ HealthVault is a comprehensive application designed to securely store user healt
 - **Database:** Firebase is used for user authentication and real-time database storage. It ensures secure and efficient management of user data.
 - **AI and Machine Learning:** PyHealth is used for preprocessing medical records and performing predictive tasks. Generative AI APIs are integrated into the backend to provide health insights.
 
-## Getting Started
-
-To get started with the project, you will need to set up the frontend, backend, and database. Ensure you have the necessary dependencies installed and configured.
-
-1. **Frontend:**
-   - Install Node.js and npm.
-   - Set up a React project and install Tailwind CSS.
-
-2. **Backend:**
-   - Install Python and Flask.
-   - Set up a Flask project and install SQLAlchemy.
-
-3. **Database:**
-   - Set up a Firebase project and configure user authentication and real-time database.
-
-4. **AI and Machine Learning:**
-   - Install PyHealth and configure it for preprocessing medical records and performing predictive tasks.
-   - Integrate generative AI APIs into the backend.
-
 ## Contributing
 
 We welcome contributions to the HealthVault project. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.

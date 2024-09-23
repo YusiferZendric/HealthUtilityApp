@@ -45,10 +45,6 @@ This project utilizes a combination of modern libraries and frameworks to delive
 - **Machine Learning Models:**
   - Utilizes various **machine learning** and **deep learning models** to analyze patient data and generate medication recommendations.
 
-## 🏁 Getting Started
-
-*Installation documentation has been removed as per request.*
-
 ## 🔍 How It Works
 
 1. **User Authentication:**

@@ -57,3 +57,5 @@ We welcome contributions to the HealthVault project. If you have any suggestions
 ## Acknowledgements
 
 We would like to thank the developers of React, Tailwind CSS, Flask, SQLAlchemy, Firebase, PyHealth, and generative AI APIs for their amazing tools and libraries that made this project possible.
+
+Aditya Kumar Pandey
